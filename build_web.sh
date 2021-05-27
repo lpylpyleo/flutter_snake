@@ -1,3 +1,3 @@
 flutter clean;
 flutter build web;
-mv build/web/ doc/;
+cp -rf build/web/* docs/;
